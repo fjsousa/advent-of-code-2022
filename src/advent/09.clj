@@ -1,7 +1,8 @@
 (ns advent.09)
 
 
-;;NEEDS HEAVY REFACTORING
+;;part 1 is readable byt part 2
+;; NEEDS HEAVY REFACTORING
 
 (def parsed-input
   (-> (slurp (clojure.java.io/resource "09.txt"))
