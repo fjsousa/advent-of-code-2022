@@ -1,7 +1,8 @@
 (ns advent.09)
 
 
-;;THis code is unreadable and shouldn't serve as a guide to anyone, but it works
+;;NEEDS HEAVY REFACTORING
+
 (def parsed-input
   (-> (slurp (clojure.java.io/resource "09.txt"))
       (clojure.string/split #"\n| ")
